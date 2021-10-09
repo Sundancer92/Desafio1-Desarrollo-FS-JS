@@ -31,8 +31,8 @@ let operacionAritmetica = function () {
     
     // Ciclo para obligar a ingresar 2 numeros diferentes y mayores a cero y distintos entre ellos.
     do{
-      numero1 = parseInt(prompt("Ingresa el primer numero"));
-      numero2 = parseInt(prompt("Ingresa el segundo numero"));
+      numero1 = parseInt(prompt("Ingresa el primer numero mayor a cero"));
+      numero2 = parseInt(prompt("Ingresa el segundo numero mayor a cero y diferente al numero anterior"));
     } while ((isNaN(numero1) || isNaN(numero2)) || ((numero1 <=0 || numero2 <= 0) || (numero1 == numero2)));
     
     // Variables de operacion arimetica
@@ -113,7 +113,7 @@ let temperaturas = function () {
     let inputCelcius = 0;
     // Bucle dowhile para recibir si o si un numero y trsnformarlo en Float con 2 decimales.
     do {
-        inputCelcius = parseFloat(prompt("Ingresa tu tenperatura en °C"));
+        inputCelcius = parseFloat(prompt("Ingresa una temperatura en °C (Solo números)"));
     } while (isNaN(inputCelcius));
     
     // Variable y operacion Celcius a Kelvin.
