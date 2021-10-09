@@ -1,0 +1,15 @@
+body {
+  background-color: black;
+}
+
+.p-container {
+  background-color: #ffc179bd;
+  color: rgb(238, 238, 238);
+  border-radius: 10px;
+  width: fit-content;
+  margin: 20px auto;
+}
+
+ul {
+  list-style-type: disclosure-closed;
+}

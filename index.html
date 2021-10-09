@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap 5.1.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/syles.css">
+
+    <title>Modulo 2 - JS Desafio 1</title>
+</head>
+<body>
+
+    <div class="container unico text-center mt-3">
+        <button class="btn btn-primary" onclick="dias()">Dias</button>
+        <button class="btn btn-secondary" onclick="operacionAritmetica()">Operación Arimética</button>
+        <button class="btn btn-danger" onclick="promedio()">Promedio</button>
+        <button class="btn btn-warning text-white" onclick="temperaturas()">Temperaturas</button>
+        <!--Off Canvas BTN-->
+        <button class="btn btn-info text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Flujo Aritmético</button>
+        <div class="p-container px-2">
+            <p id="textUnico"></p>
+        </div>
+    </div>
+    
+    <!-- Off Canvas Body-->
+    <div class="offcanvas offcanvas-end text-center" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="text-center">
+            <h5 id="offcanvasRightLabel" class="my-4">Flujo Aritmético</h5>
+        </div>
+        <div class="offcanvas-body">
+            <img src="./assets/img/diagramaFlujo.png" alt="Diagrama de Flujo ejercicio 1">
+        </div>
+    </div>
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>    
+
+    <!-- Script JS-->
+    <script src="./assets/js/main.js"></script>
+
+</body>
+</html>
